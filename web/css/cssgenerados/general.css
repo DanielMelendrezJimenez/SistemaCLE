@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7/09/2016, 09:23:32 AM
+    Author     : Cesar
+*/
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+.puntero{
+    cursor: pointer;
+}
+
+.panelCert{
+    height: 170px;
+}
+
+.panelCertScroll{
+    height: 190px;
+    overflow-y: auto;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
+
+body {
+    /*background-color: #eee;*/
+    /*background-color: #EDEDED;*/
+    background-color: #EAEAEA;
+}
+
+.panel-title{
+    font-weight: bold;
+}
+.centerfy img{
+    margin: 0 auto;
+}
+.centerfy{
+    text-align: center;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .orange {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    line-height: normal;
+    margin-right: .1em;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    overflow: visible;
+    /* removes extra width in IE */
+    background-color: #ff5700;
+    background-image: none;
+    color: White;
+}
+.buttons-pdf {
+    /*background-color: blue;
+    color: white;*/
+    background: url("../img/pdfFinal2.png") 2px 2px no-repeat;
+    padding-left: 30px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    padding-top: 30px;
+}
+
+/*.buttons-pdf:before {
+    font-family: FontAwesome;
+    content: "\f019";
+    display: inline-block;  
+    vertical-align: middle;
+}*/
+.dataTables_filter{
+    padding-top: 10px;
+}
+
+.buttons-pdf:active {
+    background: url("../img/pdfFinal2.png") 2px 2px no-repeat;
+    padding-left: 30px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    padding-top: 30px;
+}
+
+
+.portal-footer{
+    padding: 15px 0;
+    color: #999;
+    text-align: center;
+
+    /*background-color: #f9f9f9;*/
+    border-top: 1px solid #e5e5e5;
+}
+
+.portal-footer p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.border-bottom{
+    border-bottom-style:  solid;
+    border-bottom-color: lightgray;
+    border-width: thin;
+}
+
+.border-top{
+    border-top-style:  solid;
+    border-top-color: lightgray;
+    border-width: thin;
+}

@@ -1,0 +1,134 @@
+body {
+    background-color: #EAEAEA;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 20;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    background-color: transparent;
+    height: 400px;
+
+}
+.carousel-inner > .item > img {
+    border-radius: 30px;
+    border: 5px solid #FF8000 ;
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 400px;
+}
+
+
+.form-signin {
+    max-width: 50%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+@media (min-width: 768px) {
+    /*  .blog-footer {
+        position: fixed;
+        bottom: 0;
+      }*/
+
+    .blog-footer{
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .blog-footer{
+        width: 940px;
+    }
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+    padding: 15px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+
+.submitLink {
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.submitLink:focus {
+    outline: none;
+}
+
+.noresize {
+    resize: none;
+}
+
+.middletext {
+    vertical-align: middle;
+}
+
+
+.captcha{
+    display: inline-block;
+    width: 245px;
+}
+#mainCaptcha {
+  background-image: linear-gradient(white, blue, white);
+  color: #FF9900;
+  height: 45px;
+  max-height: 50px;
+  user-select: none;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-variant: normal;
+  font-weight: 900;
+  text-align: center;
+}

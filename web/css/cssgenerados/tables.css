@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/01/2015, 09:40:35 PM
+    Author     : Edgar
+*/
+
+/* tables */
+table.tablesorter {
+	/*font-family:arial;*/
+/*	background-color: #CDCDCD;	*/
+	
+        font-size: 8pt;
+	/*width: 100%;*/        
+	text-align: center;
+}
+table.tablesorter thead tr th{
+/*	background-color: #e6EEEE;	
+       background-color: #dFEEEE;*/
+	/*border: 1px solid #FFF;*/
+	font-size: 8pt;
+	padding: 3.5px;
+	text-align: center;
+
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  /*font-weight:  bold;*/  
+  color: #FF8000;
+  /*background-color: #F48B22;*/ 
+}
+.panel-default > .panel-body > ul > .nav-tabs > li > .active ~ a{
+  color: #FF8000 !important;
+  /*border-bottom-color: #fff;*/
+}
+.panel-title{
+    
+  font-weight: bold;  
+}
+/*table.tablesorter thead tr .header {
+	//background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}*/
+table.tablesorter tbody td {
+/*	color: #3D3D3D;*/
+	padding: 4px;
+	/*background-color: #FFF;*/
+/*	vertical-align: top;*/
+}
+
+.portal-footer{
+    padding: 15px 0;
+  color: #999;
+  text-align: center;
+  
+  /*background-color: #f9f9f9;*/
+  border-top: 1px solid #e5e5e5;
+}
+
+.portal-footer p:last-child {    
+    margin-bottom: 0;         
+}

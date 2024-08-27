@@ -1,0 +1,261 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Jun-2020, 12:47:41
+    Author     : diego
+*/
+
+@media screen and (max-width:992px){
+    .top-block{
+        margin-top: 10px;
+    }
+}
+
+.icons{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.icons li{
+    position: relative;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+.icons li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #000;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px !important;
+}
+
+.icons .greenspan span{
+    background: #449d44;
+}
+.icons .ligthGreenspan span{
+    background: #a4d46c;
+}
+
+.icons .bluespan span{
+    background: #1DA1F2;
+}
+.icons .orangespan span{
+    background: #f0ad4e;
+}
+
+.icons .ligthOrangespan span{
+    background: #D85E20;
+}
+
+
+.icons .grayspan span{
+    background: #EAEAEA;
+}
+
+
+#info-block section {
+    border: 1px solid #b0b0b0;
+    border-radius: 4px;
+}
+
+.file-marker > div {
+    height: 100%;
+    margin-top: -0.8em;
+    margin-bottom: 1%;
+
+}
+.box-title {
+    background: white none repeat scroll 0 0;
+    display: inline-block;
+    padding: 0 5px;
+    margin-left: 30%;
+    font-size: 10px;
+}
+
+.border-bottom-separ{
+    border-bottom-style:  solid;
+    border-bottom-color: lightgray;
+    border-width: thin;
+}
+
+
+.subirDonatario{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    display: block;
+    background: #1DA1F2;
+    color:#fff;
+
+}
+
+.subirDonatario:hover{
+    color:#fff;
+    background: #158aff;
+}
+
+
+
+.btn-check {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+.btn-check[disabled] + .btn, .btn-check:disabled + .btn {
+    pointer-events: none;
+    filter: none;
+    opacity: 0.65;
+}
+.btn-check:focus + .btn{
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-check:focus + .btn-success{
+    color: #fff;
+    background-color: #157347;
+    border-color: #146c43;
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.btn-check:checked + .btn-success,
+.btn-check:active + .btn-success,
+.show > .btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #146c43;
+    border-color: #13653f;
+}
+.btn-check:checked + .btn-success:focus,
+.btn-check:active + .btn-success:focus,
+.show > .btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+
+.btn-check:focus + .btn-warning{
+    color: #000;
+    background-color: #ffca2c;
+    border-color: #ffc720;
+    box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.btn-check:checked + .btn-warning,
+.btn-check:active + .btn-warning,
+.show > .btn-warning.dropdown-toggle {
+    color: #000;
+    background-color: #ffcd39;
+    border-color: #ffc720;
+}
+.btn-check:checked + .btn-warning:focus,
+.btn-check:active + .btn-warning:focus,
+.show > .btn-warning.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+
+
+.news-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.news {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+}
+
+.news-text {
+    padding-right: 100%;
+    display: inline-block;
+    animation: scroll-text 10s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.notifications .notification-item > a{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    transition: 0.3s;
+}
+.notifications .notification-item > a i {
+    margin: 0 20px 0 10px;
+    font-size: 24px;
+}
+.notifications .notification-item > a h4 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2px;
+     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.notifications .notification-item > a p {
+    font-size: 11px;
+    margin-bottom: 2px;
+    color: #666666;
+}
+.notifications .notification-item > a:hover {
+    background-color: #f6f9ff;
+}
+
+ /* Oculta los botones de incremento y decremento */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+  }
+  
+  .itt-catalogos-search-row th input {
+    float: left;
+    font-size: 8pt;
+    width: 100%;
+    height: 25px;
+}
